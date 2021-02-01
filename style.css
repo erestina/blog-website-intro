@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logo img {
+  width: 170px;
+  height: 100px;
+  background-position: top-left;
+  position: relative;
+  left: -20px;
+  top: -20px;
+}
+.main {
+  width: 100%;
+  height: 140vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #ff9966, #ffffff);
+}
+nav {
+  width: 90%;
+  position: sticky;
+  margin: 20px auto;
+  display: flex;
+  z-index: 1;
+  right: 20%;
+}
+
+.logo {
+  flex-basis: 20%;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.nav-links ul li a {
+  color: #585858;
+  text-decoration: none;
+}
+.infomration {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+}
+#circle {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  right: 44%;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: 1s;
+}
+.feature img {
+  width: 70px;
+}
+.feature {
+  position: absolute;
+  display: flex;
+  color: white;
+}
+.feature div {
+  margin-left: 30px;
+}
+.feature div p {
+  margin-top: 8px;
+}
+.one {
+  top: 30px;
+  right: 200px;
+  border: 80px;
+  font-si ze: 15px;
+  transform: rotate(-90deg);
+}
+.two {
+  top: 160px;
+  left: 420px;
+  font-size: 15px;
+  margin: 200px;
+}
+.three {
+  bottom: 10px;
+  left: 250px;
+  transform: rotate(90deg);
+}
+.four {
+  bottom: 50px;
+  right: 240px;
+  margin: 300px;
+  font-size: 15px;
+  transform: rotate(180deg);
+}
+
+.liv {
+  width: 200px;
+  position: absolute;
+  top: 35%;
+  left: 23%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+.controls {
+  position: absolute;
+  right: 18%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.controls h3 {
+  margin: -10px;
+  color: palevioletred;
+}
+#upBtn {
+  width: 70px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+}
+#downBtn {
+  width: 70px;
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+.overlay {
+  width: 0;
+  height: 0;
+  border-top: 350px solid white;
+  border-right: 500px solid transparent;
+  border-bottom: 400px solid white;
+  border-left: 400px solid white;
+  position: absolute;
+  top: 0;
+  left: 0;
+   
+}
